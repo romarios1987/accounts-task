@@ -1,0 +1,74 @@
+body {
+    font-size: 16px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.btn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wrap {
+    max-width: 1170px;
+    width: 100%;
+    margin: 10% auto 0;
+}
+
+
+
+.accounts {
+    display: flex;
+    align-items: center;
+}
+
+.accounts__add{
+    margin-left: 50px;
+}
+
+
+
+.add-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+}
+
+
+.add-form .input-form {
+    width: 100%;
+    padding: 10px 0;
+    text-indent: 15px;
+}
+
+.buttons-form {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.account-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.account-item img {
+    max-width: 75px;
+    margin-right: 30px;
+}
+
+.isHidden {
+    display: none;
+}
+.isVisible {
+    display: flex;
+}
